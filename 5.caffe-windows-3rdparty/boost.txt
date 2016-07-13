@@ -1,0 +1,4 @@
+
+@rem ±‡“Î64Œª
+bjam stage --stagedir=x64 --with-regex --with-date_time --with-timer --with-atomic --with-thread --with-filesystem --with-system --toolset=msvc-10.0 architecture=x86 address-model=64 link=static runtime-link=shared threading=multi debug release
+
