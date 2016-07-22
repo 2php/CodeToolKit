@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hwbrapsqlite", "hwbrapsqlite.vcxproj", "{80DB6DB9-AD7C-4601-883C-1B7D91F00134}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "demo.vcxproj", "{A807A73E-79E2-4828-ABC3-088D0BA9F569}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80DB6DB9-AD7C-4601-883C-1B7D91F00134} = {80DB6DB9-AD7C-4601-883C-1B7D91F00134}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80DB6DB9-AD7C-4601-883C-1B7D91F00134}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80DB6DB9-AD7C-4601-883C-1B7D91F00134}.Debug|Win32.Build.0 = Debug|Win32
+		{80DB6DB9-AD7C-4601-883C-1B7D91F00134}.Debug|x64.ActiveCfg = Debug|Win32
+		{80DB6DB9-AD7C-4601-883C-1B7D91F00134}.Release|Win32.ActiveCfg = Release|Win32
+		{80DB6DB9-AD7C-4601-883C-1B7D91F00134}.Release|Win32.Build.0 = Release|Win32
+		{80DB6DB9-AD7C-4601-883C-1B7D91F00134}.Release|x64.ActiveCfg = Release|Win32
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Debug|Win32.Build.0 = Debug|Win32
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Debug|x64.ActiveCfg = Debug|x64
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Debug|x64.Build.0 = Debug|x64
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Release|Win32.ActiveCfg = Release|Win32
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Release|Win32.Build.0 = Release|Win32
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Release|x64.ActiveCfg = Release|x64
+		{A807A73E-79E2-4828-ABC3-088D0BA9F569}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
